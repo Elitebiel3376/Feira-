@@ -96,7 +96,7 @@
         <h1>Enigma do Ecossistema</h1>
     </header>
     <main>
-        <p>Eu posso voar e ajudar na polinização das plantas. Quem sou eu?</p>
+        <p>O que pode encher uma sala, mas não ocupa espaço?</p>
         <div id="erro">Resposta incorreta. Tente novamente.</div>
         <form action="javascript:void(0);" onsubmit="checkAnswer()">
             <input type="text" id="resposta" placeholder="Sua resposta">
@@ -105,14 +105,14 @@
         <div id="resultado">
             <h2>Parabéns!</h2>
             <p>Você acertou o enigma!</p>
-            <p>abelha.</p>
-            <a href="enigma10.html">continua enigma</a>
+            <p>Luz.</p>
+            <a href="enigma11.html">continua enigma</a>
         </div>
     </main>
     <script>
         function checkAnswer() {
             var resposta = document.getElementById('resposta').value.trim().toLowerCase();
-            if (resposta === 'abelha') {
+            if (resposta === 'Luz') {
                 document.getElementById('resultado').style.display = 'block';
                 document.getElementById('erro').style.display = 'none';
             } else {
