@@ -96,7 +96,7 @@
         <h1>Enigma do Ecossistema</h1>
     </header>
     <main>
-        <p>O que é que se forma quando as folhas caem no outono e depois se transforma em nutrientes para a terra?</p>
+        <p>O que é um grupo de plantas e animais que vivem e interagem em um ambiente específico?</p>
         <div id="erro">Resposta incorreta. Tente novamente.</div>
         <form action="javascript:void(0);" onsubmit="checkAnswer()">
             <input type="text" id="resposta" placeholder="Sua resposta">
@@ -105,14 +105,14 @@
         <div id="resultado">
             <h2>Parabéns!</h2>
             <p>Você acertou o enigma!</p>
-            <p>húmus.</p>
-            <a href="enigma15.html">continua enigma</a>
+            <p>Buraco.</p>
+            <a href="enigma13.html">continua enigma</a>
         </div>
     </main>
     <script>
         function checkAnswer() {
             var resposta = document.getElementById('resposta').value.trim().toLowerCase();
-            if (resposta === 'humus') {
+            if (resposta === 'comunidade') {
                 document.getElementById('resultado').style.display = 'block';
                 document.getElementById('erro').style.display = 'none';
             } else {
