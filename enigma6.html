@@ -96,7 +96,7 @@
         <h1>Enigma do Ecossistema</h1>
     </header>
     <main>
-        <p>Eu me movo lentamente pelo chão, carregando minha casa comigo, sou uma pequena criatura com uma grande responsabilidade ecológica. O que sou?</p>
+        <p>Eu sou um fenômeno natural que transporta sedimentos e nutrientes para áreas novas, ajudando a fertilizar o solo. Quem sou eu?</p>
         <div id="erro">Resposta incorreta. Tente novamente.</div>
         <form action="javascript:void(0);" onsubmit="checkAnswer()">
             <input type="text" id="resposta" placeholder="Sua resposta">
@@ -105,14 +105,14 @@
         <div id="resultado">
             <h2>Parabéns!</h2>
             <p>Você acertou o enigma!</p>
-            <p>Caracol.</p>
+            <p>Floresta tropical.</p>
             <a href="enigma7.html">continua enigma</a>
         </div>
     </main>
     <script>
         function checkAnswer() {
             var resposta = document.getElementById('resposta').value.trim().toLowerCase();
-            if (resposta === 'caracol') {
+            if (resposta === 'Floresta tropical') {
                 document.getElementById('resultado').style.display = 'block';
                 document.getElementById('erro').style.display = 'none';
             } else {
